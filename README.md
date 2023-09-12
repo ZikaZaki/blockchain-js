@@ -1,4 +1,4 @@
-# blockchain-js
+# blockchain-js ⛓️
 
 This repository contains a simple implementation of a blockchain in JavaScript.
 
