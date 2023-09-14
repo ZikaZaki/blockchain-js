@@ -33,4 +33,3 @@ console.log(JSON.stringify(secondBlockchain, null, 4));
 
 console.log("Is blockchain valid? " + zikaCoin.isChainValid());
 console.log("Is blockchain valid? " + secondBlockchain.isChainValid());
-
