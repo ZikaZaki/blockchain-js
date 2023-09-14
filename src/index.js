@@ -12,7 +12,6 @@ zikaCoin.addBlock(new Block({ from: 'Lujain', to: 'Amat', amount: 200 }));
 console.log("Mining block 3...");
 zikaCoin.addBlock(new Block({ from: 'Tamim', to: 'Zack', amount: 100 }));
 
-
 console.log("Mining block 4...");
 zikaCoin.addBlock(new Block({ from: 'Lujain', to: 'Tamim', amount: 50 }));
 
