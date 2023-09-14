@@ -30,6 +30,5 @@ zikaCoin.getLatestBlock().data = { from: 'Tamim', to: 'Zack', amount: 101 };
 
 console.log(JSON.stringify(zikaCoin, null, 4));
 console.log(JSON.stringify(secondBlockchain, null, 4));
-
 console.log("Is blockchain valid? " + zikaCoin.isChainValid());
 console.log("Is blockchain valid? " + secondBlockchain.isChainValid());
