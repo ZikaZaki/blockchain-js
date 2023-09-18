@@ -3,7 +3,6 @@ import CryptoJS from 'crypto-js';
 const SHA256 = CryptoJS.SHA256;
 
 class Block {
-
   constructor(data) {
     this.index = null;
     this.timestamp = new Date().getTime().toString();
