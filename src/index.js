@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import Block from './block.js';
 import Blockchain from './blockchain.js';
 
@@ -22,7 +23,6 @@ zikaCoin.addBlock(new Block({ from: 'Lujain', to: 'Tamim', amount: 50 }));
 // Deep Copy 
 // let secondBlockchain = JSON.parse(JSON.stringify(zikaCoin));
 // const _ = require('lodash');
-import _ from 'lodash';
 let secondBlockchain = _.cloneDeep(zikaCoin);
 
 zikaCoin.getLatestBlock().data = { from: 'Tamim', to: 'Zack', amount: 101 };
