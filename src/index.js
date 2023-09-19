@@ -16,8 +16,6 @@ zikaCoin.addBlock(new Block({ from: 'Tamim', to: 'Zack', amount: 100 }));
 console.log("Mining block 4...");
 zikaCoin.addBlock(new Block({ from: 'Lujain', to: 'Tamim', amount: 50 }));
 
-
-
 // Deep Copy 
 // let secondBlockchain = JSON.parse(JSON.stringify(zikaCoin));
 // const _ = require('lodash');
