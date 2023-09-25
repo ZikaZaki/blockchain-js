@@ -10,7 +10,6 @@ class Blockchain{
     const genesisBlock = new Block("Genesis Block");
     genesisBlock.index = 0;
     genesisBlock.previousHash = "0012genesis345block678";
-
     genesisBlock.mineBlock(this.difficulty);
     return genesisBlock;
   }
